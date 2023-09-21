@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-08 05:59:36 p. m."/>
+        <attribute name="created" value="SW52aXRhZG87TEFCMDIwNDI2OzIwMjMtMDktMDg7MDU6MTA6NTIgcC4gbS47MjgwOA=="/>
+        <attribute name="edited" value="SW52aXRhZG87TEFCMDIwNDI2OzIwMjMtMDktMDg7MDU6NTk6MzYgcC4gbS47MjsyOTMy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="apellidos" type="String" array="False" size=""/>
+            <declare name="Nombre" type="String" array="False" size=""/>
+            <declare name="Edad" type="Integer" array="False" size=""/>
+            <declare name="Direcci&#243;n" type="String" array="False" size=""/>
+            <declare name="Tipo" type="String" array="False" size=""/>
+            <declare name="Promedio" type="Real" array="False" size=""/>
+            <declare name="Prepa" type="String" array="False" size=""/>
+            <output expression="&quot;Captura tus apellidos&quot;" newline="True"/>
+            <input variable="Nombre"/>
+            <output expression="&quot;Captura tu edad&quot;" newline="True"/>
+            <input variable="Edad"/>
+            <output expression="&quot;Captura tu Direcci&#243;n&quot;" newline="True"/>
+            <input variable="Tipo"/>
+            <output expression="&quot;Captura tu prepa&quot;" newline="True"/>
+            <input variable="Prepa"/>
+            <output expression="Apellidos" newline="True"/>
+            <output expression="nombre" newline="True"/>
+            <output expression="edad" newline="True"/>
+            <output expression="direccion" newline="True"/>
+            <output expression="tipo" newline="True"/>
+            <output expression="promedio" newline="True"/>
+            <output expression="prepa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
